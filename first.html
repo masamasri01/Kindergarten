@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+    <style>
+        #brand1  {    font-family: 'Courier New', monospace; font-weight: 700; font-size: 1.5em;  color: #f7cac9  ;  size: 100px }
+
+        .selector-for-some-widget {
+            box-sizing: content-box;
+        }
+        .navbar-nav > li{
+            margin-left:30px;
+            margin-right:30px;
+        }
+    </style>
+</head>
+<body>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+<div class="firstsection">
+    <div  >
+        <nav  class="navbar navbar-expand-md navbar-light fixed-top"  style="background-color: #92a8d1" >
+            <a id="brand1" class="navbar-brand" href="#home" style="padding-left: 20px">
+                Kinder Home
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav" style="padding-left: 380px">
+                    <a class="nav-item nav-link active" href="#home" style="padding-left: 50px">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="#aboutt" style="padding-left: 50px">About</a>
+                    <a class="nav-item nav-link" href="#features" style="padding-left: 50px">Features</a>
+                    <a class="nav-item nav-link" href="#pricing"  style="padding-left: 50px">Pricing</a>
+                    <a class="nav-item nav-link " href="#all" style="padding-left: 50px">Contact</a>
+                    <button id="login" onclick="function2()" type="button" class="btn btn-secondary" style="margin-left: 60px">Log In</button>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--eeeeeeeeeeeend of navbar -->
+
+
+
+
+    <section class="home" id="home" >
+        <video class="video-slide active" src="vidoes/a4.mp4" autoplay muted loop> </video>
+        <video class="video-slide" src="vidoes/a22.mp4" autoplay muted loop> </video>
+        <video class="video-slide" src="vidoes/a3.mp4" autoplay muted loop> </video>
+        <img class="video-slide " src="imgs/background.jpg" > </img>
+
+
+
+        <div class ="content">
+            <h1> Kinder <br> Home</h1>
+            <P> Your Kid's Loving Home</P>
+        </div>
+
+
+        <div class ="slider-navigation">
+            <div class="nav-btn "> </div>
+            <div class="nav-btn"> </div>
+            <div class="nav-btn"> </div>
+            <div class="nav-btn"> </div>
+
+        </div>
+
+
+    </section>
+</div>
+<!-- login-->
+<!--<div id="divlogin" style=" position: fixed; top:120px ;left:380px; z-index: 200000; display: none;">-->
+<!--    <div  >-->
+<!--        <div class="row d-flex justify-content-center">-->
+<!--            <div class="col-md-6">-->
+<!--                <div  class="card px-5 py-5" id="form1" style="background: #dddddd;border: #99999f 1px solid; border-radius: 6px">-->
+<!--                    <div class="form-data" v-if="!submitted">-->
+<!--                        <form action="try.php" method="post">-->
+<!--                        <div class="forms-inputs mb-4"> <span>user ID</span>-->
+
+<!--                            <input name="id" autocomplete="off" type="text"  >-->
+
+<!--                        </div>-->
+<!--                        <div class="forms-inputs mb-4"> <span>Password</span> <input name="password" autocomplete="off" type="password" v-model="password" >-->
+
+<!--                        </div>-->
+<!--                        <div class="mb-3"> <button type="submit" id="log" class="btn btn-secondary w-100">Login</button> </div>-->
+<!--                        </form>    </div>-->
+
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
+<main  style=" display: flex;
+        align-items: center;
+        justify-content:center;
+    width: 100%;
+">
+<form id="divlogin" class="form_class" action="try.php" method="post" style=" display: none; position: fixed; top:120px ;left:380px; z-index: 200000;">
+    <div class="form_div">
+        <label>Login:</label>
+        <input class="field_class" name="id" type="text" placeholder="Inter ID" autofocus style=" width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;">
+        <label>Password:</label>
+        <input id="pass" class="field_class" name="password" type="password" placeholder="Password" style=" width: 100%;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 5px 0px;
+    text-indent: 6px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'system-ui';
+    font-size: 0.9rem;
+    letter-spacing: 2px;">
+        <button class="submit_class" type="submit" form="divlogin" onclick="return validarLogin()" style=" border-style: none;
+    border-radius: 5px;
+    background-color: #FFE6D4;
+    padding: 8px 20px;
+    font-family: 'system-ui';
+    text-transform: uppercase;
+    letter-spacing: .8px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgb(0,0,0,0.2);
+    cursor: pointer;">
+Log In</button>
+    </div>
+    <div  align="center" style="margin-top: 9px">
+    <div class="form-check" style="display: inline-block; margin-left: 7px">
+        <input value="1" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+        <label class="form-check-label text-danger" for="flexRadioDefault1">
+            Admin
+        </label>
+    </div>
+    <div class="form-check" style="display: inline-block;margin-left: 9px">
+        <input value="2" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" >
+        <label class="form-check-label text-success" for="flexRadioDefault2">
+           Staff
+        </label>
+    </div>
+    <div class="form-check" style="display: inline-block;margin-left: 9px">
+        <input value="3" class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3">
+        <label class="form-check-label text-primary" for="flexRadioDefault3">
+            Mom
+        </label>
+    </div>
+    </div>
+
+</form>
+</main>
+
+
+<!-- SECOND SECTION-->
+<section id="aboutt" class="s2">
+    <img id ="i1" src="imgs/about.jpg">
+    <div class="about1">
+        <h3> Kinder Home Kindergarten</h3>
+        <p>
+            A place where the Epic Journey of Learning Begins, The journey of parenthood begins without a map. As parents, we want the best for our kids. We want them to grow up to be confident lifelong learners who are ready to take on the world.
+        </p></div>
+</section>
+<section class=" s2 " style="background-color:  #92a8d1">
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-6">
+
+                <h5 class="text-white display-4">
+
+                    WHY CHOOSE US?
+                </h5>
+                <p class="text-white">
+                    At Nursery Story, we have developed an intuitive nursery management software that combines and simplifies administrative tasks. Recording children’s learning and development is as easy as ABC, and parent communication is secure, effective and instant.
+                    Nursery Story has it all!
+                </p>
+                <h4 class="text-white display-4">
+                    Eliminate administrative burdens
+                </h4>
+                <p class="text-white">
+                    Reduce admin and paperwork by up to 70% and spend more time focusing on providing the best possible educational experiences for the children at your setting.
+                </p>
+                <h4 class="text-white display-4" >
+                    Technology at your fingertips
+                </h4  >
+                <p class="text-white ">
+                    Paperwork is a thing of the past! Capture important information and observations as they happen, and always be able to access these at the touch of a button.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="imgs/h.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- end section  -->
+
+<!-- third SECTION-->
+<div id="features" class="s3">
+    <div class="title">
+        <h2> Features</h2>
+    </div>
+
+    <div class="box">
+        <div class="card" >
+            <i class="fa-solid fa-house-signal"></i>
+            <h5> Stay Connected</h5>
+            <div class="para">
+                <p>
+                    We have developed an intuitive management software that combines and simplifies administrative tasks. Recording children’s learning and development is as easy as ABC, and parent communication is secure, effective and instant.
+                </p>
+            </div>
+        </div>
+
+        <div class="card" >
+            <i class="fa-solid fa-eye"></i>
+            <h5>  Real-time Connectivity</h5>
+            <div class="para">
+                <p>
+                    In today’s climate, teacher to parent communication is more vital than ever. From naps and snacks, to magic moments or what happened when they tripped over in the garden and bumped their knee, parents will always be a part of their child’s journey.
+                </p>
+            </div>
+        </div>
+
+        <div class="card" >
+            <i class="fa-brands fa-leanpub"></i>
+            <h5> Learn with Joy</h5>
+            <div class="para">
+                <p>
+                    We know that learning happens in all areas of your child’s life! That’s why we offer families access to activities, parent resources, and offline opportunities for learning and play, all thoughtfully curated by our learning experts.
+                </p>
+            </div>
+        </div>
+
+        <div class="card" >
+            <i class="fa-solid fa-children"></i>
+            <h5> I Did It Moments!</h5>
+            <div class="para">
+                <p>
+                    We know that the learning journey is just as important as the end result, and we believe in celebrating moments big and small along the way. From learning their ABCs to making their first friend, we cheer for the “I did it!” moments right along with you.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!------pricing-->
+<div class="s4" id="pricing">
+
+    <div class="title">
+        <h2> Pricing</h2>
+    </div>
+
+    <div class="box">
+        <div class="card card1" >
+            <i class="fa-solid fa-house-signal"></i>
+            <h5 > One Month</h5>
+            <div class="para">
+                <p>
+                    1000$
+                </p>
+            </div>
+        </div>
+
+        <div class=" card card1" >
+            <i class="fa-solid fa-eye"></i>
+            <h5>  Six Months</h5>
+            <div class="para">
+                <p>
+                    5500$
+                </p>
+            </div>
+        </div>
+
+        <div class=" card card1" >
+            <i class="fa-brands fa-leanpub"></i>
+            <h5> One Year</h5>
+            <div class="para">
+                <p>
+                    11000$
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+</div>
+
+<!-- contact-->
+<div id="all">
+    <div class="containerr">
+        <div class ="header">
+            <h1> Developed by</h1>
+        </div>
+
+        <div class="sb-cont">
+            <div class="teams">
+                <img src="m.jpg"  alt="">
+                <div class="name"> Masa Masri</div>
+
+
+                <div class="social-links">
+                    <a href="https://www.facebook.com/masa.ma112/"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/masa-m-9b3852221?fbclid=IwAR2mZNz095edxHs-4iYGEQ57FfOMkPsccnxBPg4Lh1fSTrdp-xnRfpfg8Tg"> <i class="fa-brands fa-linkedin"> </i></a>
+                    <a href="https://github.com/masamasri2"> <i class="fa fa-github"> </i></a>
+                </div>
+            </div>
+
+            <div class="teams">
+                <img src="h.jpg"  alt="">
+                <div class="name"> Hadeel Bani Jaber</div>
+
+                <div class="social-links">
+                    <a href="#"> <i class="fa-brands fa-facebook"> </i></a>
+                    <a href="#"> <i class="fa-brands fa-linkedin"></i> </a>
+                    <a href="#"> <i class="fa fa-github"> </i></a>
+                </div>
+            </div>
+        </div>
+        <!-- start footer  -->
+        <div style="position: relative; top:-36px">
+        <footer class="py-3 mt-5 bg-dark ">
+            <div class="container ">
+                <p class="text-center text-white mb-0 ">
+                    Copyright &copy; 2022. Masa and Hadeel . All Rights Reserved
+                </p>
+                <ul class="list-inline mt-3 mb-0 text-center ">
+
+
+                </ul>
+            </div>
+        </footer>
+        <!-- end footer  -->
+    </div>
+    </div>
+</div>
+
+
+
+
+
+<script>
+
+    const btns = document.querySelectorAll(".nav-btn");
+    const slides= document.querySelectorAll(".video-slide");
+
+
+
+    var sliderNav = function (manual){
+        btns.forEach((btn)=>{
+            btn.classList.remove("active");
+        });
+        slides.forEach((slide)=>{
+            slide.classList.remove("active");
+        });
+
+        btns[manual].classList.add("active");
+        slides[manual].classList.add("active");
+    }
+    btns.forEach((btn,i)=>
+    {
+        btn.addEventListener("click", ()=>{
+            sliderNav(i)
+        });
+    });
+
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+

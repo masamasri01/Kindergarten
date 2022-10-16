@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="38d6a25b-3d44-422f-a7ae-96799a85ebbb" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../kinderkiddies\exportToHTML" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="26xPzljiaK9tjCBv41cnMIa2n2u" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled1" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies\imgs" />
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies\assets\img" />
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies\assets\img" />
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies" />
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies\php" />
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies\vidoes" />
+      <recent name="C:\xampp\htdocs\masa\kinderkiddies\imgs" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.rooms.html">
+    <configuration name="index2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/masa/kinderkiddies/index2.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/masa/kinderkiddies/index.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="rooms.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost/masa/kinderkiddies/rooms.html">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.rooms.html" />
+        <item itemvalue="JavaScript Debug.index2.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="38d6a25b-3d44-422f-a7ae-96799a85ebbb" name="Changes" comment="" />
+      <created>1648362529301</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648362529301</updated>
+      <workItem from="1648362530488" duration="4781000" />
+      <workItem from="1648373207721" duration="7914000" />
+      <workItem from="1648494714585" duration="14175000" />
+      <workItem from="1648540369638" duration="16510000" />
+      <workItem from="1648624896753" duration="7547000" />
+      <workItem from="1648743795460" duration="3165000" />
+      <workItem from="1648989757680" duration="1395000" />
+      <workItem from="1649107423054" duration="4833000" />
+      <workItem from="1649160948052" duration="1543000" />
+      <workItem from="1649226495973" duration="5000" />
+      <workItem from="1649228039037" duration="824000" />
+      <workItem from="1649235680187" duration="5082000" />
+      <workItem from="1649334354523" duration="6322000" />
+      <workItem from="1649426115233" duration="4942000" />
+      <workItem from="1649499324888" duration="16827000" />
+      <workItem from="1649844131843" duration="1447000" />
+      <workItem from="1649929925131" duration="5585000" />
+      <workItem from="1650012945718" duration="3285000" />
+      <workItem from="1650107432249" duration="3884000" />
+      <workItem from="1650176084926" duration="4714000" />
+      <workItem from="1650198143419" duration="7051000" />
+      <workItem from="1650436565529" duration="979000" />
+      <workItem from="1650438464997" duration="43000" />
+      <workItem from="1650480536079" duration="1319000" />
+      <workItem from="1650490758149" duration="277000" />
+      <workItem from="1650705772997" duration="617000" />
+      <workItem from="1650719574107" duration="10450000" />
+      <workItem from="1650788953075" duration="19973000" />
+      <workItem from="1650874716726" duration="38880000" />
+      <workItem from="1651260038783" duration="433000" />
+      <workItem from="1651283439244" duration="3260000" />
+      <workItem from="1651313319541" duration="19277000" />
+      <workItem from="1651354244808" duration="24762000" />
+      <workItem from="1651466672614" duration="16456000" />
+      <workItem from="1651533823677" duration="599000" />
+      <workItem from="1651592003183" duration="19266000" />
+      <workItem from="1651650651498" duration="23029000" />
+      <workItem from="1651685280816" duration="8151000" />
+      <workItem from="1651694492467" duration="350000" />
+      <workItem from="1651764245673" duration="26415000" />
+      <workItem from="1651800632581" duration="2826000" />
+      <workItem from="1651957646177" duration="1222000" />
+      <workItem from="1651958924450" duration="140000" />
+      <workItem from="1651959110048" duration="1340000" />
+      <workItem from="1651993704558" duration="595000" />
+      <workItem from="1652012288283" duration="1142000" />
+      <workItem from="1660561127312" duration="2504000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
