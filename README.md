@@ -186,12 +186,10 @@ And also sees the feed.They also can see the specific kids assigned in their roo
 __________________________________________
 Also the website is responsive :
 ![image](https://user-images.githubusercontent.com/93089580/214316130-892a0076-8b97-4239-9604-f1eb87ba39dd.png)
+![image](https://user-images.githubusercontent.com/93089580/214316294-3e502a84-ddc8-4729-ae7d-fc3a67170a0a.png)
 
+![image](https://user-images.githubusercontent.com/93089580/214316338-aa813abe-c500-4378-ba62-618f16df1e8d.png)
+![image](https://user-images.githubusercontent.com/93089580/214316381-f4e12861-d0a5-4a76-b1b7-029f192c2eec.png)
 
-9- conclusion
-We conclude that we can solve a lot of problems that we face in real life with a software web development in easy and comfortable interface, as we have kids in our families and as we lack this kind of software management, we struggle and always be concerned about our kids in kindergartens what they ate and how much they ate or slept, This website Have it all.
+ we can solve a lot of problems that we face in real life with a software web development in easy and comfortable interface, as we have kids in our families and as we lack this kind of software management, we struggle and always be concerned about our kids in kindergartens what they ate and how much they ate or slept, This website Have it all.
 
-10- references
-Course slides
-W3schools
-google
